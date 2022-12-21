@@ -1,0 +1,45 @@
+.card {
+    background-color: #f0edea;
+    width: 730px;
+    display: flex;
+    margin: auto;
+    box-shadow: 4px 8px 8px 2px #969696;
+    margin-top: 60px;
+}
+
+img:first-of-type {
+    height: 100%;
+}
+
+.content img {
+    height: 10px;
+}
+
+.content {
+    padding: 30px;
+    position: relative;
+}
+
+.title {
+    font-size: 25px;
+    display: block;
+}
+
+.description {
+    font-weight: bold;
+    text-align: justify;
+}
+
+.link {
+    background-color: #e98120;
+    width: fit-content;
+    padding: 20px 40px;
+    position: absolute;
+    bottom: -20px;
+    right: -20px;
+}
+
+.link:hover {
+    background-color: #c36813;
+    cursor: pointer;
+}
