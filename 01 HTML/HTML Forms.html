@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>EXPERIMENT 1</title>
+</head>
+
+<body>
+    <form method="post">
+        <table border="1" cellpadding="10" align="center">
+            <caption align="top">
+                <h3>COURSE REGISTRATION APPLICATION FORM</h3>
+            </caption>
+            <tr>
+                <td colspan="3" bgcolor="blue">
+                    <font color="white">1. Registration Form</font>
+                </td>
+            </tr>
+            <tr>
+                <td>1.0</td>
+                <td>Have you got online reference number for enrollment number?</td>
+                <td>
+                    <label>No<input type="radio" name="RefNo" value="No" checked></label>
+                    <label>Yes<input type="radio" name="RefNo" value="Yes"></label>
+                </td>
+            </tr>
+            <tr>
+                <td>1.1</td>
+                <td>Registration sought for</td>
+                <td>
+                    <select>
+                        <option value="BESE-25">BESE-25</option>
+                        <option value="BESE-26">BESE-26</option>
+                        <option value="BESE-27">BESE-27</option>
+                        <option value="BESE-28">BESE-28</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>1.2</td>
+                <td>Applied as</td>
+                <td>
+                    <label><input type="radio" name="Applied" value="Direct Candidate">Direct Candidate</label>
+                    <label><input type="radio" name="Applied" value="Through Institute">Through Institute</label>
+                </td>
+            </tr>
+            <tr>
+                <td>1.3</td>
+                <td>Exam Cycle</td>
+                <td>
+                    <input type="text" name="ExamCycle" value="September 2022" readonly>
+                </td>
+            </tr>
+            <tr>
+                <td>1.4</td>
+                <td>Registration Fee Will be Paid?</td>
+                <td>
+                    <select>
+                        <option value="Institute">Through Institute</option>
+                        <option value="Bank">Through Bank</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>1.5</td>
+                <td>Select Course</td>
+                <td>
+                    <select>
+                        <optgroup label="Fall Semester">
+                            <option value="ICS">Intro to Computer Security</option>
+                            <option value="OS">Operating System</option>
+                            <option value="PE">Professional Ethics</option>
+                            <option value="SDA">Software Design and Architecture</option>
+                            <option value="TW">Technical Writing</option>
+                            <option value="WE" selected>Web Engineering</option>
+                        </optgroup>
+                        <optgroup label="Spring Semester">
+                            <option value="DWDM">Data Warehouse and Data Mining</option>
+                            <option value="E">Entrepreneurship</option>
+                            <option value="FM">Formal Methods</option>
+                            <option value="FC">Fundamentals of Cryptography</option>
+                            <option value="SC">Software Construction</option>
+                            <option value="SQE">Software Quality Engineering</option>
+                        </optgroup>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="3" bgcolor="blue">
+                    <font color="white"=>2. Applicant's Personal Details</font>
+                </td>
+            </tr>
+            <tr>
+                <td>2.1</td>
+                <td>Applicant's Full Name</td>
+                <td>
+                    <select>
+                        <option value="None" selected disabled hidden>Select</option>
+                        <option value="Mr">Mr.</option>
+                        <option value="Ms">Ms.</option>
+                    </select>
+                    <input type="text" name="Name" placeholder="Enter Your Name">
+                </td>
+            </tr>
+            <tr>
+                <td>2.2</td>
+                <td>Care of</td>
+                <td>
+                    <label>Parent<input type="radio" name="Care" value="Parent"></label>
+                    <label>Guardian<input type="radio" name="Care" value="Guardian"></label>
+                </td>
+            </tr>
+            <tr>
+                <td>2.3</td>
+                <td>Email Address</td>
+                <td>
+                    <input type="email" name="Email">
+                </td>
+            </tr>
+            <tr>
+                <td>2.4</td>
+                <td>Mobile No.</td>
+                <td>
+                    <input type="tel" name="Mobile" placeholder="0333-1234567" pattern="03[0-6][0-9]-[0-9]{7}">
+                </td>
+            </tr>
+            <tr>
+                <td colspan="3" align="center">
+                    <input type="submit" name="Submit" value="Submit">
+                    <input type="reset" name="Reset" value="Reset">
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+
+</html>
