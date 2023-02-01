@@ -1,0 +1,204 @@
+{
+    "questions": [
+        {
+            "question": "Which web app attribute is defined by the statement: \"A large number of users may access the WebApp at one time\"?",
+            "answers": [
+                "Unpredictable load",
+                "Performance",
+                "Concurrency",
+                "Network intensiveness"
+            ],
+            "correct-answer": 2
+        },
+        {
+            "question": "Which web app attribute is defined by the statement: \"The quality and aesthetic nature of content remains an important determinant of the quality of a WebApp\"?",
+            "answers": [
+                "Availability",
+                "Data driven",
+                "Content sensitive",
+                "Continuous evolution"
+            ],
+            "correct-answer": 2
+        },
+        {
+            "question": "If the user queries a collection of large databases and extracts information from the webapp, the webapp is categorized under",
+            "answers": [
+                "Service oriented app",
+                "Database access app",
+                "Portal app",
+                "Data warehousing app"
+            ],
+            "correct-answer": 3
+        },
+        {
+            "question": "Which process model should be used in virtually all situations of web engineering?",
+            "answers": [
+                "Incremental Model",
+                "Waterfall Model",
+                "Spiral Model",
+                "None of the mentioned"
+            ],
+            "correct-answer": 0
+        },
+        {
+            "question": "Which analysis is a part of Analysis model of the web engineering process framework?",
+            "answers": [
+                "Content Analysis",
+                "Interaction Analysis",
+                "Functional Analysis",
+                "All of the mentioned"
+            ],
+            "correct-answer": 3
+        },
+        {
+            "question": "Which of the following statements are incorrect with reference to web-based systems? Web-based systems",
+            "answers": [
+                "should be unscalable",
+                "must be able to cope with uncertain, random heavy demands on services",
+                "must be secure",
+                "are subject to assorted legal, social, and ethical scrutiny"
+            ],
+            "correct-answer": 0
+        },
+        {
+            "question": "What category of web-based system would you assign to electronic shopping?",
+            "answers": [
+                "Informational",
+                "Interactive",
+                "Transaction-oriented",
+                "Workflow-oriented"
+            ],
+            "correct-answer": 2
+        },
+        {
+            "question": "What category of web-based system would you assign to discussion groups?",
+            "answers": [
+                "Collaborative work",
+                "Online communities",
+                "Web portals",
+                "Workflow-oriented"
+            ],
+            "correct-answer": 1
+        },
+        {
+            "question": "W2C stands for",
+            "answers": [
+                "World Wide Web Consortium",
+                "World Wide Web Collaboration",
+                "World Wide Web Community",
+                "None of the mentioned"
+            ],
+            "correct-answer": 0
+        },
+        {
+            "question": "Which of the following is a risk associated with using hypertext in web applications?",
+            "answers": [
+                "Loss of sense of locality and direction",
+                "Cognitive overload for users",
+                "All of the mentioned",
+                "None of the mentioned"
+            ],
+            "correct-answer": 2
+        },
+        {
+            "question": "What Tag Is Used For Inserting A Line Break In A Html Page?",
+            "answers": [
+                "<break>",
+                "<ol>",
+                "<br>",
+                "<lb>"
+            ],
+            "correct-answer": 2
+        },
+        {
+            "question": "Which Is Not Part Of A Complete URL?",
+            "answers": [
+                "Browser",
+                "Path",
+                "Resource Name",
+                "Protocol"
+            ],
+            "correct-answer": 0
+        },
+        {
+            "question": "Which Attribute Of Tag Defines The Url Of The Image To Be Loaded?",
+            "answers": [
+                "hspace",
+                "src",
+                "vspace",
+                "width"
+            ],
+            "correct-answer": 1
+        },
+        {
+            "question": "Which Attribute Of The <tr> Tag Sets The Vertical Alignment Of The Row?",
+            "answers": [
+                "vrow",
+                "halign",
+                "align",
+                "valign"
+            ],
+            "correct-answer": 3
+        },
+        {
+            "question": "Which Tag Is Used To Include A Separately Defined Style Sheet In Web Pages?",
+            "answers": [
+                "<style>",
+                "<link>",
+                "<body>",
+                "<import>"
+            ],
+            "correct-answer": 1
+        },
+        {
+            "question": "A New Array Can Be Declared By Which Of The Following?",
+            "answers": [
+                "Student = New Array;",
+                "Array = New Student",
+                "Student = New Array();",
+                "Array = New Student();"
+            ],
+            "correct-answer": 2
+        },
+        {
+            "question": "Which Javascript Event Handler Pertains To Actions Enabled By Mouse Clicks?",
+            "answers": [
+                "oninput",
+                "onchange",
+                "onclick",
+                "ondrag"
+            ],
+            "correct-answer": 2
+        },
+        {
+            "question": "In Which Loop, Condition Comes After The Body Of The Loop?",
+            "answers": [
+                "While Loop",
+                "For Loop",
+                "Do-while Loop",
+                "Nested Loop"
+            ],
+            "correct-answer": 2
+        },
+        {
+            "question": "Which Of The Following Is An Example Of FTP?",
+            "answers": [
+                "Personal",
+                "Web Server",
+                "Sql",
+                "Cute-ftp"
+            ],
+            "correct-answer": 3
+        },
+        {
+            "question": "Which Object Supports File System API?",
+            "answers": [
+                "Element",
+                "File",
+                "Window",
+                "Dom"
+            ],
+            "correct-answer": 2
+        }
+    ]
+}

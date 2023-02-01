@@ -1,0 +1,61 @@
+* {
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body {
+    background-color: #ffa500;
+    background-image: url('https://img.freepik.com/free-vector/orange-question-mark-background-with-text-space_1017-27394.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 50vw 100vh;
+    background-position: right;
+}
+
+form {
+    padding: 1%;
+}
+
+.quiz-card {
+    background-color: white;
+    padding: 50px;
+    margin: 75px 25px;
+    border-radius: 25px;
+    box-shadow: 0px 2px 4px grey;
+}
+
+.ques {
+    font-size: x-large;
+}
+
+.ans {
+    position: relative;
+    left: 30px;
+    font-size: large;
+    line-height: 2.4;
+    cursor: pointer;
+}
+
+input[type="radio"] {
+    width: 15px;
+    height: 15px;
+}
+
+input[type="submit"] {
+    float: right;
+    color: #000000C0;
+    font-weight: bold;
+    font-size: x-large;
+    background-color: transparent;
+    border: 5px solid #0159ff;
+    border-radius: 10px;
+    margin: -20px 80px 40px 60px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #0159ff;
+    color: white;
+}

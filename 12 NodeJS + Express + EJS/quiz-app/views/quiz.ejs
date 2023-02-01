@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz by Ahmed Mujtaba Butt</title>
+    <link rel="stylesheet" type="text/css" href="css/quiz.css">
+    <script src="js/quiz.js" type="text/javascript"></script>
+</head>
+
+<body>
+    <form name="quiz" action="/page-<%=curr+1%>" method="post">
+        <% if (MCQs.length > 0) { %>
+            <% MCQs.forEach( (MCQ, i) => { %>
+                <div class="quiz-card">
+                    <span class="ques"><b><%= (i+1) + (curr-1) * ques%>)</b> <%=MCQ.question%><br/></span>
+                    <% MCQ.answers.forEach( (ans, j) => { %>
+                        <label class="ans"><input type="radio" name="<%= i + (curr-1) * ques%>" value="<%=j%>" /> <%=ans%><br/></label>
+                    <% }) %>
+                </div>
+            <% }) %>
+        <% } %>
+        <% if (curr == pages) { %>
+            <input id="<%=curr%>" type="submit" name="next" value="Finish" />
+        <% } else { %>
+            <input id="<%=curr%>" type="submit" name="next" value="NEXT &rArr;" />
+        <% } %>
+    </form>
+</body>
+
+</html>

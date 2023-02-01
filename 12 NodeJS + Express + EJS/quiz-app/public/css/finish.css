@@ -1,0 +1,32 @@
+body {
+    margin: 0%;
+    box-sizing: border-box;
+    background-color: #00ffa5;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+div {
+    background-color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 25px;
+    width: 50%;
+    padding: 20px;
+    font-size: xx-large;
+    text-align: center;
+    line-height: 2.4;
+}
+
+span {
+    color: green;
+}
+
+span:first-child {
+    color: black;
+}
+
+span:last-child {
+    color: red;
+}
