@@ -4,7 +4,7 @@ This repo contains around 12 mini-projects related to different topics of Web De
 |--|--|--|
 | 01 | Course Registration Application Form | HTML5 |
 | 02 | Recipe Cards | HTML5, CSS3 |
-| 03 | Krusty Krab | HTML5, CSS3 |
+| 03 | The Krusty Krab | HTML5, CSS3 |
 | 04 | Restaurant Website | HTML5, Bootstrap |
 | 05 | Image Slider | HTML5, CSS3, JS |
 | 06 | Application Form with Validation | HTML5, CSS3, JS |
