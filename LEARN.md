@@ -9,7 +9,7 @@
 
 ## 01 - 08
 
-Open the *.html file in any browser (with [live server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer))
+Open the *.html file in any browser (preferably with [live server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer))
 
 ## 09 - 12
 
@@ -20,4 +20,4 @@ In terminal type the following commands:
 
 ---
 
-You can also read my blog about these projects: [DEV](https://dev.to/ahmedmbutt/12-mini-web-projects-to-boost-your-web-development-skills-5dfi) | [Medium](https://medium.com/@ahmedmbutt/12-mini-web-projects-to-boost-your-web-development-skills-101cc9e79a0d)
+You can also read my blog about these projects at: [DEV](https://dev.to/ahmedmbutt/12-mini-web-projects-to-boost-your-web-development-skills-5dfi) | [Medium](https://medium.com/@ahmedmbutt/12-mini-web-projects-to-boost-your-web-development-skills-101cc9e79a0d)
