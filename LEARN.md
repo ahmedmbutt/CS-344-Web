@@ -17,3 +17,7 @@ In terminal type the following commands:
 
     npm install
     npm start
+
+---
+
+You can also read my blog about these projects: [DEV](https://dev.to/ahmedmbutt/12-mini-web-projects-to-boost-your-web-development-skills-5dfi) | [Medium](https://medium.com/@ahmedmbutt/12-mini-web-projects-to-boost-your-web-development-skills-101cc9e79a0d)
